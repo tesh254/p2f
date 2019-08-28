@@ -1,0 +1,254 @@
+{
+    "react": [
+        {
+            "name": "Tejas Kumar",
+            "username": "@TejasKumar_",
+            "profileLink": "https://twitter.com/TejasKumar_",
+            "avatar": "https://pbs.twimg.com/profile_images/1139746308858814465/HC_OEncT_400x400.jpg"
+        },
+        {
+            "name": "Kent C. Dodds",
+            "username": "@kentcdodds",
+            "profileLink": "https://twitter.com/kentcdodds",
+            "avatar": "https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q.jpg"
+        },
+        {
+            "name": "Pariss Athena",
+            "username": "@ParissAthena",
+            "profileLink": "https://twitter.com/parissAthena",
+            "avatar": "https://pbs.twimg.com/profile_images/1156392450870710272/b0mVWOLD_400x400.jpg"
+        },
+        {
+            "name":"Scott Tolinski",
+            "username": "@stolinski",
+            "profileLink": "https://twitter.com/stolinski",
+            "avatar": "https://pbs.twimg.com/profile_images/1010171472097099777/k9ZT8lbq.jpg"
+        },
+        {
+            "name": "James Q Quick",
+            "username": "@jamesqquick",
+            "profileLink": "https://twitter.com/jamesqquick",
+            "avatar": "https://pbs.twimg.com/profile_images/887455546890211329/tAoS7KUm.jpg"
+        },
+        {
+            "name": "Chris On Code",
+            "username": "@chrisoncode",
+            "profileLink": "https://twitter.com/chrisoncode",
+            "avatar": "https://pbs.twimg.com/profile_images/1108575469119508480/xRZsnhr0_400x400.png"
+        },
+        {
+            "name": "Brad Traversy",
+            "username": "@traversymedia",
+            "profileLink": "https://twitter.com/traversymedia",
+            "avatar": "https://pbs.twimg.com/profile_images/856983737426423809/6jebtwP-.jpg"
+        },
+        {
+            "name":"JavaScript Joe",
+            "username":"@jsjoeio",
+            "profileLink":"https://twitter.com/jsjoeio",
+            "avatar":"https://pbs.twimg.com/profile_images/1048693326797463552/QBDmFRUJ.jpg"
+        },
+        {
+            "name": "JavaScript Teacher",
+            "username":"@js_tut",
+            "profileLink":"https://twitter.com/js_tut",
+            "avatar": "https://pbs.twimg.com/profile_images/1108653603902894080/9bnbJq4O_400x400.jpg"
+        },
+        {
+            "name": "Ire Aderinokun",
+            "username": "@ireaderinokun",
+            "profileLink": "https://twitter.com/ireaderinokun",
+            "avatar": "https://pbs.twimg.com/profile_images/1068949150648188929/8SEFkLpt.jpg"
+        },
+        {
+            "name": "Tae'lur Alexis ⚛️🦄",
+            "username": "@TaelurAlexis",
+            "profileLink": "https://twitter.com/TaelurAlexis",
+            "avatar": "https://pbs.twimg.com/media/DoZ-qEtU0AAT_Q7.jpg"
+        },
+        {
+            "name": "Tim Myers",
+            "username": "@denvercoder",
+            "profileLink": "https://twitter.com/denvercoder",
+            "avatar": "https://pbs.twimg.com/profile_images/1079509410941001728/3aDUjtzC_400x400.jpg"
+        },
+        {
+            "name": "Dan Abramov",
+            "username": "@dan_abramov",
+            "profileLink": "https://twitter.com/dan_abramov",
+            "avatar": "https://pbs.twimg.com/profile_images/1166344766210150401/amRnWzl-_400x400.jpg"
+        },
+        {
+            "name": "Sam Wight",
+            "username": "@samwightt",
+            "profileLink": "https://twitter.com/samwightt",
+            "avatar": "https://pbs.twimg.com/profile_images/1160734974036889602/wKqj7zs__400x400.jpg"
+        },
+        {
+            "name": "Adam Rackis",
+            "username": "@AdamRackis",
+            "profileLink": "https://twitter.com/AdamRackis",
+            "avatar": "https://pbs.twimg.com/profile_images/578245151677501440/7RXysXXe.jpeg"
+        },
+        {
+            "name": "Christoph Werner",
+            "username": "@code_punkt",
+            "profileLink": "https://twitter.com/code_punkt",
+            "avatar": "https://pbs.twimg.com/profile_images/1019876585833422848/1AD4tj1i_400x400.jpg"
+        },
+        {
+            "name": "Elizabeth Funk",
+            "username": "@elizfunk",
+            "profileLink": "https://twitter.com/elizfunk",
+            "avatar": "https://pbs.twimg.com/profile_images/907295930067558400/iNFOuiT0_400x400.jpg"
+        },
+        {
+            "name": "Ryan Florence",
+            "username": "@ryanflorence",
+            "profileLink": "https://twitter.com/ryanflorence",
+            "avatar": "https://pbs.twimg.com/profile_images/1166030195834273794/pBb6hjVb_400x400.jpg"
+        },
+        {
+            "name": "MICHAEL JACKS😅N",
+            "username": "@mjackson",
+            "profileLink": "https://twitter.com/mjackson",
+            "avatar": "https://pbs.twimg.com/profile_images/1095819845382299649/zG-2_UHS.jpg"
+        },
+        {
+            "name": "Sophie Alpert",
+            "username": "@sophiebits",
+            "profileLink": "https://twitter.com/sophiebits",
+            "avatar": "https://pbs.twimg.com/profile_images/901699146993737729/mi3uhA15.jpg"
+        },
+        {
+            "name": "Nader Dabit",
+            "username": "@dabit3",
+            "profileLink": "https://twitter.com/dabit3",
+            "avatar": "https://pbs.twimg.com/profile_images/981977686678622208/bKQTdDgx_400x400.jpg"
+        },
+        {
+            "name": "William Imoh",
+            "username": "@iChuloo",
+            "profileLink": "https://twitter.com/iChuloo",
+            "avatar": "https://pbs.twimg.com/profile_images/896691015859544064/9SlAOMVK.jpg"
+        }
+    ],
+    "react_native": [
+        {
+            "name": "Nick DeJesus - T7 Chicken developer",
+            "username": "@Dayhaysoos",
+            "profileLink": "https://twitter.com/Dayhaysoos",
+            "avatar": "https://pbs.twimg.com/profile_images/1162232227888947200/WqSRnoYy_400x400.jpg"
+        },
+        {
+            "name": "Jamon Holmgren",
+            "username": "@jamonholmgren",
+            "profileLink": "https://twitter.com/jamonholmgren",
+            "avatar": "https://pbs.twimg.com/profile_images/1073242195048640513/tB484lnU_400x400.jpg"
+        },
+        {
+            "name": "Ken Wheeler",
+            "username": "@ken_wheeler",
+            "profileLink": "https://twitter.com/ken_wheeler",
+            "avatar": "https://pbs.twimg.com/profile_images/1165943966501670919/TzlK_AlZ_400x400.jpg"
+        },
+        {
+            "name": "Zack Argyle @ReactRally",
+            "username": "@ZackArgyle",
+            "profileLink": "https://twitter.com/ZackArgyle",
+            "avatar": "https://pbs.twimg.com/profile_images/1163852409967239168/eY8IrIs4_400x400.jpg"
+        },
+        {
+            "name": "Christoph Nakazawa",
+            "username": "@cpojer",
+            "profileLink": "https://twitter.com/cpojer",
+            "avatar": "https://pbs.twimg.com/profile_images/735581270554476544/APamkgg4.jpg"
+        },
+        {
+            "name": "Garrett McCullough",
+            "username": "@gwmccull",
+            "profileLink": "https://twitter.com/gwmccull",
+            "avatar": "https://pbs.twimg.com/profile_images/955503100785172486/UrMKkQXc.jpg"
+        },
+        {
+            "name": "brent",
+            "username": "@notbrent",
+            "profileLink": "https://twitter.com/notbrent",
+            "avatar": "https://pbs.twimg.com/profile_images/745350695298076673/EFzkWMXL.jpg"
+        },
+        {
+            "name": "Eli White",
+            "username": "@Eli_White",
+            "profileLink": "https://twitter.com/Eli_White",
+            "avatar": "https://pbs.twimg.com/profile_images/505139843286855681/2GrUpqFA_400x400.jpeg"
+        },
+        {
+            "name": "Frankie V",
+            "username": "@infinite_frank",
+            "profileLink": "https://twitter.com/infinite_frank",
+            "avatar": "https://pbs.twimg.com/profile_images/1042522851922784257/qSGrCZlD_400x400.jpg"
+        }
+    ], 
+    "angular": [
+        {
+            "name": "Juan Herrera 🇨🇴",
+            "username": "@jdjuan",
+            "profileLink": "https://twitter.com/jdjuan",
+            "avatar": "https://pbs.twimg.com/profile_images/1156527572894834689/Q0zjG9V5_400x400.jpg"
+        },
+        {
+            "name": "Oti Kelechi",
+            "username": "@Ot_kelechi",
+            "profileLink": "https://twitter.com/Ot_kelechi",
+            "avatar": "https://pbs.twimg.com/profile_images/378800000711546999/b43f04d501011549c5b1a690d0588194_400x400.png"
+        },
+        {
+            "name": "Sani Yusuf",
+            "username": "@saniyusuf",
+            "profileLink": "https://twitter.com/saniyusuf",
+            "avatar": "https://pbs.twimg.com/profile_images/1101813112703979520/kR-x36JW.png"
+        },
+        {
+            "name": "Hassan Sani",
+            "username": "@iNidAName",
+            "profileLink": "https://twitter.com/iNidAName",
+            "avatar": "https://pbs.twimg.com/profile_images/1153252061892554753/aDwVZIn6_400x400.jpg"
+        },
+        {
+            "name": "Frosty",
+            "username": "@aaronfrost",
+            "profileLink": "https://twitter.com/aaronfrost",
+            "avatar": "https://pbs.twimg.com/profile_images/1060208941030879232/_XxC8F3g_400x400.jpg"
+        },
+        {
+            "name": "Ashnita Bali",
+            "username": "@ashnita01",
+            "profileLink": "https://twitter.com/ashnita01",
+            "avatar": "https://pbs.twimg.com/profile_images/867300538995666945/keXD4kZB.jpg"
+        },
+        {
+            "name": "Benedict The Anomaly",
+            "username": "@Benneee_",
+            "profileLink": "https://twitter.com/triple0t",
+            "avatar": "https://pbs.twimg.com/profile_images/1122351067868561408/RBkpUinN_400x400.jpg"
+        },
+        {
+            "name": "Stanimira Vlaeva 😈",
+            "username": "@StanimiraVlaeva",
+            "profileLink": "https://twitter.com/StanimiraVlaeva",
+            "avatar": "https://pbs.twimg.com/profile_images/1104041196836524032/wKyjTFS3_400x400.jpg"
+        },
+        {
+            "name": "Tracy Lee | ladyleet",
+            "username": "@ladyleet",
+            "profileLink": "https://twitter.com/ladyleet",
+            "avatar": "https://pbs.twimg.com/profile_images/1100539287546802178/1HozznL5_400x400.jpg"
+        },
+        {
+            "name": "Deborah Kurata",
+            "username": "@DeborahKurata",
+            "profileLink": "https://twitter.com/DeborahKurata",
+            "avatar": "https://pbs.twimg.com/profile_images/805904808825667584/ZySojzWL_400x400.jpg"
+        }
+    ]
+}
