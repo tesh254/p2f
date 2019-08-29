@@ -3,6 +3,7 @@ import { Tabs, Typography } from "antd";
 import ReactPeople from "../People/React";
 import ReactNativePeople from "../People/ReactNative";
 import AngularPeople from "../People/Angular";
+import Makers from "../People/Makers";
 
 class StackTabs extends React.Component<{}, {}> {
     render() {
@@ -13,14 +14,17 @@ class StackTabs extends React.Component<{}, {}> {
                 <Title level={4}>People to Follow according to your stack</Title>
 
                 <Tabs defaultActiveKey="1">
-                    <TabPane tab="React" key="1">
+                    <TabPane tab="React ⚛️" key="1">
                         <ReactPeople />
                     </TabPane>
-                    <TabPane tab="React Native" key="2">
+                    <TabPane tab="React Native ⚛️" key="2">
                         <ReactNativePeople />
                     </TabPane>
-                    <TabPane tab="Angular" key="3">
+                    <TabPane tab="Angular ⚡️" key="3">
                         <AngularPeople />
+                    </TabPane>
+                    <TabPane tab="Makers 🧩" key="4">
+                        <Makers />
                     </TabPane>
                 </Tabs>
             </>
