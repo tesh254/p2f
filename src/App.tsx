@@ -1,19 +1,28 @@
 import React from 'react';
-import StackTabs from "./Components/Commons/StackTabs";
-import { Typography } from "antd";
+import { Layout } from "antd";
+import { BrowserRouter } from "react-router-dom";
+import Nav from "./Components/Commons/Navbar";
+import Routes from "./routes";
 import './App.css';
 import 'antd/dist/antd.css';
 
 const App: React.FC = () => {
-  const { Title } = Typography;
+  const { Footer } = Layout;
 
   return (
-    <div className="section">
-      <div className="container">
-        <Title level={4}>People to Follow according to your stack</Title>
-        <StackTabs />
+    <BrowserRouter>
+      <div className="section">
+        <Nav />
+        <div className="container">
+          <Routes />
+        </div>
+        <Footer style={{ textAlign: 'center' }}>
+          Made with ❤️ by Erick Wachira  {
+            new Date().getFullYear()
+          }
+        </Footer>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
