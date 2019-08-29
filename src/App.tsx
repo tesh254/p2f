@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import StackTabs from "./Components/Commons/StackTabs";
+import { Typography } from "antd";
 import './App.css';
+import 'antd/dist/antd.css';
 
 const App: React.FC = () => {
+  const { Title } = Typography;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="section">
+      <div className="container">
+        <Title level={4}>People to Follow according to your stack</Title>
+        <StackTabs />
+      </div>
     </div>
   );
 }
