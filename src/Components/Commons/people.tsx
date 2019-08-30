@@ -24,7 +24,9 @@ class People extends React.Component<PeopleProps, {}> {
                                     <div className="content">
                                         <a href={`${person.profileLink}?ref_src=twsrc%5Etfw`}
                                             className="twitter-follow-button"
-                                            data-show-count="false">
+                                            target="_blank"
+                                            data-show-count="false"
+                                            rel="noopener noreferrer">
                                             Follow {person.username}
                                         </a>
                                     </div>

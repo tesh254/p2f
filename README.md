@@ -1,44 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# P2F
 
-## Available Scripts
+A react web app with a list of user tweet feeds(embed) that coders should follow on twitter
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+**P2F**(People to Follow) is a website that contains a list
+a list of people on Twitter who can fill your timeline with productive
+tweets. They are open to discussions and questions.
+These people can impact your tech and maker life really positively.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Why?
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+People such as @chrisooncode and @alligator, have improved my software development
+life by a mile. So I made this website to help others who are devs just like me.
 
-### `npm test`
+### Thanks
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It would have taken me a while to get this list but thanks to
+[@hacksultan](https://twitter.com/hacksultan)
+who made an [article](https://scotch.io/bar-talk/the-top-tech-people-to-follow-on-twitter-for-your-stack)
+containing a list of people.
 
-### `npm run build`
+## Contribute
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I know I don't have everyone here but great news **P2F** is open-source so you can add your maker on existing data or you can add new people.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+> **Note**: Before you start contributing ensure you read the `CONTRIBUTING.md`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Have `Node`, `npm`/`yarn` installed on your computer, but `yarn` is prefered
+- Should have basic knowledge `Typescript` and `React`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Standard Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Fork this repo `https://github.com/tesh254/p2f.git`
+- Clone your forked repository `git clone https://github.com/<your-username>/p2f.git`
+- Type `yarn start` to run the application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Add to an existing
 
-## Learn More
+- If you want to add on a person locate `src/data/<datafile e.g react.ts>`.
+- Inside the file you should see an array with multiple objects containing users' info
+- To add someone just add anywhere in the array with an object like this:
+  ```js
+  {
+      name: "<The person's Twitter name>",
+      username: "<The person's Twitter username>",
+      profileLink: "<Link to profile>",
+      avatar: "<The person's current avatar>"
+  }
+  ```
+- Push your code, raise your pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Add a new stack/category
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Locate `src/data` folder
+- Create a new **file**, name it according to the **category/stack** in **lowercase**
+- When adding data ensure you adhere to the template below
+  ```js
+      export default [
+          {
+            name: "<The person's Twitter name>",
+            username: "<The person's Twitter username>",
+            profileLink: "<Link to profile>",
+            avatar: "<The person's current avatar>"
+          },
+          {...},
+          {...}
+      ]
+  ```
+
+* Locate `src/Components/People`
+* Create a new folder with the name of the **stack/category**, first letter **uppercase**
+* Inside the folder create an `index.ts` file
+* Inside your template should adhere to the template below
+
+  ```typescript
+      import React from "react";
+      import { PeopleState } from "../../types/interface";
+      import People from "../../../data/<your data file in the src/data folder>";
+      import PeopleComponent from "../../Commons/people";
+
+      // If stack the class should be <Stack>People e.g. VuePeople
+      // If category then it should be <Category name> e.g. Influencers
+      class <Stack/Category name> extends React.Component<{}, PeopleState> {
+          state = {
+              people: People
+          }
+
+          render() {
+              return (
+                  <PeopleComponent {...this.state} />
+              )
+          }
+      }
+
+      export default <Stack/Category name>;
+  ```
+
+* Locate the `src/Components/Commons/StackTabs.tsx`
+* Ensure you import your `<Stack/Category>` Component
+* Open it and add your tab
+  - Each tab is enclosed with the `<TabPane>` antd component.
+  - The `tab` props is the name of the tab, emoji **must** be there so get creative.
+  - The `key` is numeric number that helps in toggling the tabs
+  - Ensure you is the last one and the `key` props should be a number **greater** than the **second last** tab by **one**.

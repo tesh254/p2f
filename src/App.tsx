@@ -17,7 +17,7 @@ const App: React.FC = () => {
           <Routes />
         </div>
         <Footer style={{ textAlign: 'center' }}>
-          Made with ❤️ by Erick Wachira  {
+          Made with <span role="img" aria-labelledby="heart emoji">❤️</span> by Erick Wachira  {
             new Date().getFullYear()
           }
         </Footer>

@@ -1,9 +1,9 @@
 import React from "react";
-import { Typography, Divider } from 'antd';
+import { Typography } from 'antd';
 
 class Contribute extends React.Component<{}, {}> {
     render() {
-        const { Title, Paragraph, Text } = Typography;
+        const { Title, Paragraph } = Typography;
 
         return (
             <Typography>
