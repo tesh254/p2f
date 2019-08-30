@@ -1,7 +1,6 @@
 import React from "react";
 import { Layout, Menu, Icon } from 'antd';
 import { NavLink } from "react-router-dom";
-import Logo from "../../static/images/p2f.svg";
 
 class Navbar extends React.Component<{}, {}> {
     render() {
@@ -12,7 +11,7 @@ class Navbar extends React.Component<{}, {}> {
                     <Menu
                         theme="dark"
                         mode="horizontal"
-                        defaultSelectedKeys={['2']}
+                        defaultSelectedKeys={['1']}
                         style={{ lineHeight: '64px' }}
                     >
                         <Menu.Item key="1">
@@ -22,11 +21,11 @@ class Navbar extends React.Component<{}, {}> {
                         </Menu.Item>
                         <Menu.Item key="2">
                             <NavLink to="/about">
-                                ℹ️ About
+                                <span role="img" aria-labelledby="info emoji">ℹ️</span> About
                         </NavLink></Menu.Item>
                         <Menu.Item key="3">
                             <NavLink to="/contribute">
-                                🤗 Contribute
+                                <span role="img" aria-labelledby="blush hug emoji">🤗</span> Contribute
                         </NavLink></Menu.Item>
                     </Menu>
                 </Header>
